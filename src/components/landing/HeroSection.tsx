@@ -21,9 +21,6 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="inline-block px-4 py-1.5 rounded-full bg-trust-blue-light text-accent text-sm font-semibold mb-6">
-              Proposed for NIESBUD
-            </span>
             <h1 className="text-hero md:text-hero-md text-foreground mb-5 text-balance">
               Learn business by playing a{" "}
               <span className="text-primary">simple game.</span>
