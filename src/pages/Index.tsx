@@ -1,16 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/landing/Navbar";
+import HeroSection from "@/components/landing/HeroSection";
+import WhoItsFor from "@/components/landing/WhoItsFor";
+import CoreIdea from "@/components/landing/CoreIdea";
+import FeaturesSection from "@/components/landing/FeaturesSection";
+import HowItWorks from "@/components/landing/HowItWorks";
+import JourneyStages from "@/components/landing/JourneyStages";
+import WhyThisWorks from "@/components/landing/WhyThisWorks";
+import InstitutionsSection from "@/components/landing/InstitutionsSection";
+import FinalCTA from "@/components/landing/FinalCTA";
+import Footer from "@/components/landing/Footer";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
-  return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
-  );
-};
-
-const Index = PlaceholderIndex;
+const Index = () => (
+  <>
+    <Navbar />
+    <HeroSection />
+    <WhoItsFor />
+    <CoreIdea />
+    <FeaturesSection />
+    <HowItWorks />
+    <JourneyStages />
+    <WhyThisWorks />
+    <InstitutionsSection />
+    <FinalCTA />
+    <Footer />
+  </>
+);
 
 export default Index;
