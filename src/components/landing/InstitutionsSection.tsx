@@ -20,7 +20,7 @@ const InstitutionsSection = () => (
         <span className="text-accent">entrepreneurship programs</span>
       </motion.h2>
       <p className="text-center text-muted-foreground text-body-lg mb-14 max-w-2xl mx-auto">
-        Designed for NIESBUD and institutions running entrepreneurship development programs.
+        Designed for institutions running entrepreneurship development programs.
       </p>
 
       <div className="grid md:grid-cols-3 gap-8">
