@@ -5,7 +5,7 @@ const Navbar = () => (
     <div className="container flex items-center justify-between h-16">
       <div className="flex items-center gap-2.5">
         <div className="w-28 h-28 rounded-lg flex items-center justify-center">
-          <img src="/logo.png" alt="UdyogVerse" className="w-20 h-20 object-contain" />
+          <img src="/logo.avif" alt="UdyogVerse" className="w-14 h-14 object-contain" />
         </div>
         <span className="font-bold text-foreground text-lg -ml-8">UdyogVerse</span>
       </div>
