@@ -9,9 +9,15 @@ const Navbar = () => (
         </div>
         <span className="font-bold text-foreground text-lg -ml-8">UdyogVerse</span>
       </div>
-      <button className="gradient-saffron text-primary-foreground font-bold px-5 py-2 rounded-lg text-sm hover:opacity-90 transition-opacity">
-        Join Beta
-      </button>
+      <a
+        href="https://app.udyogverse.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="gradient-saffron text-primary-foreground font-bold px-5 py-2 rounded-lg text-sm hover:opacity-90 transition-opacity flex items-center justify-center"
+      >
+        Get Started
+      </a>
+ 
     </div>
   </nav>
 );
